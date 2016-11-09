@@ -1,0 +1,6 @@
+framework module Pods_FoundationCategories_Example {
+  umbrella header "Pods-FoundationCategories_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - FoundationCategories (0.1.0)
+
+DEPENDENCIES:
+  - FoundationCategories (from `../`)
+
+EXTERNAL SOURCES:
+  FoundationCategories:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FoundationCategories: e636f54292952b4e0a517344f6bff4baec4fc62e
+
+PODFILE CHECKSUM: 6c0a78eef99b28b17f2947ea27459b358eff10dc
+
+COCOAPODS: 1.2.0.beta.1
