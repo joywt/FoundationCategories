@@ -158,4 +158,63 @@
     }
     return NO;
 }
+
+- (BOOL)isKindOfClass:(Class)aClass forKey:(NSString *)key{
+    return [self A_isKindOfClass:aClass forKey:key];
+}
+- (BOOL)isMemberOfClass:(Class)aClass forKey:(NSString *)key{
+    return [self A_isMemberOfClass:aClass forKey:key];
+}
+- (BOOL)isArrayForKey:(NSString *)key{
+    return [self A_isArrayForKey:key];
+}
+- (BOOL)isDictionaryForKey:(NSString *)key{
+    return [self A_isDictionaryForKey:key];
+}
+- (BOOL)isStringForKey:(NSString *)key{
+    return [self A_isStringForKey:key];
+}
+- (BOOL)isNumberForKey:(NSString *)key{
+    return [self A_isNumberForKey:key];
+}
+
+- (NSArray *)arrayForKey:(NSString *)key{
+    return [self A_arrayForKey:key];
+}
+- (NSDictionary *)dictionaryForKey:(NSString *)key{
+    return [self A_dictionaryForKey:key];
+}
+- (NSString *)jk_stringForKey:(NSString *)key{
+    return [self A_stringForKey:key];
+}
+- (NSNumber *)numberForKey:(NSString *)key{
+    return [self A_numberForKey:key];
+}
+- (double)doubleForKey:(NSString *)key{
+    return [self A_doubleForKey:key];
+}
+- (float)floatForKey:(NSString *)key{
+    return [self A_floatForKey:key];
+}
+- (int)intForKey:(NSString *)key{
+    return [self A_intForKey:key];
+}
+- (unsigned int)unsignedIntForKey:(NSString *)key{
+    return [self A_unsignedIntForKey:key];
+}
+- (NSInteger)integerForKey:(NSString *)key{
+    return [self A_integerForKey:key];
+}
+- (NSUInteger)unsignedIntegerForKey:(NSString *)key{
+    return [self A_unsignedIntegerForKey:key];
+}
+- (long long)longLongForKey:(NSString *)key{
+    return [self A_longLongForKey:key];
+}
+- (unsigned long long)unsignedLongLongForKey:(NSString *)key{
+    return [self A_unsignedLongLongForKey:key];
+}
+- (BOOL)boolForKey:(NSString *)key{
+    return [self A_boolForKey:key];
+}
 @end
